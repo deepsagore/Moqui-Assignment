@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-2.1.xsd">
+    <entity entity-name="Product" package="helloworld">
+        <field name="productId" type="id" is-pk="true"/>
+        <field name="productName" type="text-medium"/>
+        <field name="productDate" type="date"/>
+        <field name="productPrice" type="text-short"/>
+        <field name="productQuantity" type="text-short"/>
+        <!--        <field name="employeePrice" type="number-integer"/>-->
+        <!--        <field name="employeeQuantity" type="number-integer"/>-->
+    </entity>
+</entities>
